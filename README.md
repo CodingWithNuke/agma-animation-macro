@@ -29,4 +29,8 @@ Resetting a single slot (max slo is 3):
 /slots reset <1-3>
 ```
 
-Current available animations are: spin, flip, shake, jump, wacky.
+Currently available animations are: spin, flip, shake, jump, wacky.
+
+## Source Code
+
+https://github.com/CodingWithNuke/agma-animation-macro
