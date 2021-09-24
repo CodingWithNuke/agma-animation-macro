@@ -1,0 +1,20 @@
+{
+  "name": "agma-animation-macro",
+  "version": "1.0.0",
+  "description": "Press a single key to animate your cell.",
+  "author": "Nuke",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "browserify src/index.js > dist/build.js",
+    "build:tiny": "browserify -p tinyify src/index.js > dist/build.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "tinyify": "^3.0.0"
+  },
+  "dependencies": {
+    "@io-scripts/alert": "^1.0.0",
+    "@io-scripts/store": "^1.0.0",
+    "io-scripts": "^1.2.1"
+  }
+}
