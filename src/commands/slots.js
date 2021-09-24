@@ -11,6 +11,18 @@ const SUB_COMMANDS = ["reset", "set"];
 module.exports = defineCommand({
   name: "slots",
   run: (script, chatCtx, [subCommand, valueOrSlot, value]) => {
+    if (!subCommand) {
+      useAlert(
+        `Current slots are "${store.state.slots
+          .filter((slot) => slot)
+          .join(", ")}".`,
+        {
+          alertElement: "#curser",
+        }
+      );
+      return;
+    }
+
     if (!SUB_COMMANDS.includes(subCommand)) {
       useAlert(
         `Invalid subcommand. Allowed subcommands: ${SUB_COMMANDS.join(", ")}.`,

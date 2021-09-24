@@ -1,16 +1,32 @@
-# Default Template
+# agma-animation-macro
 
-This is the default template for creating `@agmajs/script` scripts.
+Press a single key to animate your cell.
 
-## Usage
+## In-Game Usage
 
-To build the script:
+Getting current slots:
 ```bash
-# Default building
-npm run build
-
-# Building minified
-npm run build:tiny
+/slots
 ```
 
-Once built you can find the code in `dist/build.js`. Copy that code and put it in a new TamperMonkey script.
+Setting all slots:
+```bash
+/slots set <animation>
+```
+
+Setting a single slot (max slot is 3):
+```bash
+/slots set <1-3> <animation>
+```
+
+Resetting all slots:
+```bash
+/slots reset
+```
+
+Resetting a single slot (max slo is 3):
+```bash
+/slots reset <1-3>
+```
+
+Current available animations are: spin, flip, shake, jump, wacky.
