@@ -4,6 +4,8 @@ Press a single key to animate your cell.
 
 ## In-Game Usage
 
+Press `~` (usually under the Escape key) to auto paste the set animations in chat.
+
 Getting current slots:
 ```
 /slots
@@ -24,7 +26,7 @@ Resetting all slots:
 /slots reset
 ```
 
-Resetting a single slot (max slo is 3):
+Resetting a single slot (max slot is 3):
 ```
 /slots reset <1-3>
 ```
