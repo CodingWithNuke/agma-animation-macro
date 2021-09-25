@@ -15,6 +15,7 @@
   "dependencies": {
     "@io-scripts/alert": "^1.0.0",
     "@io-scripts/store": "^1.0.0",
+    "@io-scripts/utils": "^1.0.2",
     "io-scripts": "^1.2.1"
   }
 }

@@ -1,8 +1,7 @@
 const { createChatContext } = require("io-scripts");
+const { isWriting } = require("@io-scripts/utils");
 
 const store = require("../store");
-
-const { isWriting } = require("../utils");
 
 /**
  * @param {import('io-scripts').Script} script
