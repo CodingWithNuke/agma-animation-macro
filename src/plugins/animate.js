@@ -1,13 +1,9 @@
-const { createChatContext } = require("io-scripts");
+const { createChatContext, definePlugin } = require("io-scripts");
 const { isWriting } = require("@io-scripts/utils");
 
 const store = require("../store");
 
-/**
- * @param {import('io-scripts').Script} script
- * @param {any} options
- */
-module.exports = (script, options) => {
+module.exports = definePlugin((script, options) => {
   document.addEventListener("keydown", (e) => {
     if (isWriting()) return;
 
@@ -19,4 +15,4 @@ module.exports = (script, options) => {
       chatCtx._chatElement.focus();
     }
   });
-};
+});
