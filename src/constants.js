@@ -1,1 +1,1 @@
-exports.ANIMATIONS = ["spin", "flip", "shake", "jump", "wacky"];
+exports.ANIMATIONS = ["spin", "flip", "shake", "jump", "wacky", "hearts"];
