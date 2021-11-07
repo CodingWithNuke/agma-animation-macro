@@ -31,7 +31,7 @@ Resetting a single slot (max slot is 3):
 /slots reset <1-3>
 ```
 
-Currently available animations are: spin, flip, shake, jump, wacky.
+Currently available animations are: spin, flip, shake, jump, wacky, hearts.
 
 ## Source Code
 
