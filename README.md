@@ -8,27 +8,36 @@ Press `~` (usually under the Escape key) to auto paste the set animations in cha
 
 Getting current slots:
 ```
-/slots
+/aam show
+```
+
+Getting a single slot (max slot is 3):
+```
+/aam show <1-3>
 ```
 
 Setting all slots:
 ```
-/slots set <animation>
+/aam set * <animation>
+```
+OR
+```
+/aam set all <animation>
 ```
 
 Setting a single slot (max slot is 3):
 ```
-/slots set <1-3> <animation>
+/aam set <1-3> <animation>
 ```
 
 Resetting all slots:
 ```
-/slots reset
+/aam reset
 ```
 
 Resetting a single slot (max slot is 3):
 ```
-/slots reset <1-3>
+/aam reset <1-3>
 ```
 
 Currently available animations are: spin, flip, shake, jump, wacky, hearts.
