@@ -1,1 +1,1 @@
-exports.ANIMATIONS = ["spin", "flip", "shake", "jump", "wacky", "hearts"];
+export const ANIMATIONS = ["spin", "flip", "shake", "jump", "wacky", "hearts"];

@@ -1,7 +1,7 @@
-const { createStore } = require("@io-scripts/store");
+import { createStore } from "@io-scripts/store";
 
-const { name } = require("../../package.json");
+import { name } from "../../package.json";
 
-module.exports = createStore(name, {
+export default createStore(name, {
   slots: [null, null, null],
 });

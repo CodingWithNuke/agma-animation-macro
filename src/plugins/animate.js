@@ -1,9 +1,9 @@
-const { createChatContext, definePlugin } = require("io-scripts");
-const { isWriting } = require("@io-scripts/utils");
+import { definePlugin, createChatContext } from "io-scripts";
+import { isWriting } from "@io-scripts/utils";
 
-const store = require("../store");
+import store from "../store";
 
-module.exports = definePlugin((script, options) => {
+export default definePlugin((script, options) => {
   document.addEventListener("keydown", (e) => {
     if (isWriting()) return;
 

@@ -1,1 +1,3 @@
-module.exports = [[require("./animate")]];
+import animate from "./animate";
+
+export default [[animate, {}]];
