@@ -1,6 +1,7 @@
 {
   "name": "agma-animation-macro",
-  "version": "2.0.0",
+  "displayName": "Agma Animation Macro",
+  "version": "2.0.1",
   "description": "Press a single key to animate your cell.",
   "author": "Nuke",
   "main": "src/index.js",

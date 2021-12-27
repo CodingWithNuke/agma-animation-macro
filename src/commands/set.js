@@ -45,7 +45,7 @@ export default defineCommand({
       return;
     }
 
-    if (slot === "*" || slot === "all") {
+    if (slot === "*" || slot.toLowerCase() === "all") {
       store.state.slots.forEach((_, idx, slots) => {
         slots[idx] = value;
       });
